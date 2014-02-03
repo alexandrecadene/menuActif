@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		nav li li.active a {
+			color: red;
+		}
+		nav li.active a {
+			color: pink;
+		}
+		nav li .subnav a {
+			color: black;
+		}
+		.onglet .active a {
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	
+	<nav>
+		<ul>
+			<li><a href="#">test</a>
+				<div class="subnav">
+					<ul>
+						<li><a href="#">toto</a></li>
+						<li><a href="#">toto2</a></li>
+						<li><a href="#">toto3</a></li>
+						<li><a href="#">toto4</a></li>
+						<li><a href="#">toto5</a></li>
+						<li><a href="#">toto6</a></li>
+						<li><a href="#">toto7</a></li>
+						<li><a href="#">toto8</a></li>
+						<li><a href="#">toto9</a></li>
+						<li><a href="#">toto10</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">test</a>
+				<div class="subnav">
+					<ul>
+						<li><a href="test2.html">toto</a></li>
+						<li><a href="#">toto2</a></li>
+						<li><a href="#">toto3</a></li>
+						<li><a href="#">toto4</a></li>
+						<li><a href="#">toto5</a></li>
+						<li><a href="#">toto6</a></li>
+						<li><a href="#">toto7</a></li>
+						<li><a href="#">toto8</a></li>
+						<li><a href="#">toto9</a></li>
+						<li><a href="#">toto10</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">test</a>
+				<div class="subnav">
+					<ul>
+						<li><a href="#">toto</a></li>
+						<li><a href="#">toto2</a></li>
+						<li><a href="#">toto3</a></li>
+						<li><a href="#">toto4</a></li>
+						<li><a href="#">toto5</a></li>
+						<li><a href="#">toto6</a></li>
+						<li><a href="#">toto7</a></li>
+						<li><a href="#">toto8</a></li>
+						<li><a href="#">toto9</a></li>
+						<li><a href="#">toto10</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">test</a>
+				<div class="subnav">
+					<ul>
+						<li><a href="#">toto</a></li>
+						<li><a href="#">toto2</a></li>
+						<li><a href="#">toto3</a></li>
+						<li><a href="#">toto4</a></li>
+						<li><a href="#">toto5</a></li>
+						<li><a href="#">toto6</a></li>
+						<li><a href="#">toto7</a></li>
+						<li><a href="#">toto8</a></li>
+						<li><a href="#">toto9</a></li>
+						<li><a href="#">toto10</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">test</a>
+				<div class="subnav">
+					<ul>
+						<li><a href="#">toto</a></li>
+						<li><a href="#">toto2</a></li>
+						<li><a href="#">toto3</a></li>
+						<li><a href="#">toto4</a></li>
+						<li><a href="#">toto5</a></li>
+						<li><a href="#">toto6</a></li>
+						<li><a href="#">toto7</a></li>
+						<li><a href="#">toto8</a></li>
+						<li><a href="#">toto9</a></li>
+						<li><a href="#">toto10</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	
+	<h1>Onglet</h1>
+	
+	<ul class="onglet">
+		<li><a href="test2.html">haha</a></li>
+		<li><a href="test1.html">haha</a></li>
+		<li><a href="test3.html">haha</a></li>
+		<li><a href="galou.html">haha</a></li>
+	</ul>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="jquery.menuHighlight.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('nav').menuHighlight();
+		});
+	</script>
+</body>
+</html>

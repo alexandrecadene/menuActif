@@ -22,7 +22,7 @@
 				var url = $(this).attr('href');
 
 				if (urlSite == url || urlSousNav == url) {
-					$(this).parents('li').children().addClass('active');
+					$(this).parents('li').addClass('active');
 				}
 
 			});
