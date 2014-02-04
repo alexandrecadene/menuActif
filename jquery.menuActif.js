@@ -1,6 +1,6 @@
 (function($)
 {
-	$.fn.menuHighlight=function(options)
+	$.fn.menuActif=function(options)
 	{
 
 		var defauts =
